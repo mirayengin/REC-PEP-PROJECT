@@ -1,6 +1,6 @@
 # Project : Recipe App
 
-## Check The Live Website ➡️ [Live Website](https://skycooper.github.io)
+## Check The Live Website ➡️ [Live Website](https://vercel.com/mirayengin/rec-pep-project)
 
 ## Visualization of the Website
 
