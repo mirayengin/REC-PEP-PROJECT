@@ -39,9 +39,7 @@ export const HeaderButton = styled.button`
 
 
 export const CardRow = styled.div`
-  /* display:flex; */
-  /* flex-direction:column; */
-  /* align-items:center; */
+
 `;
 
 

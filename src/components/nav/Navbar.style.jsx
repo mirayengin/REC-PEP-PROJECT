@@ -8,9 +8,5 @@ export const NavbarImg = styled.img`
 
 `;
 
-// export const NavbarLink = styled.NavLink`
-//   font-size:120px
-
-// `;
 
 

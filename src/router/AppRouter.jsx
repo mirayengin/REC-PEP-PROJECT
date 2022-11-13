@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-// import NavbarComp from "../components/nav/Navbar";
+
 import About from "../pages/about/About";
 import Home from "../pages/home/Home";
 import Login from "../pages/login/Login";
@@ -13,7 +13,6 @@ const AppRouter = () => {
     <>
       <Routes>
         <Route index path="/" element={<Login />} />
-        {/* <Route path="/home" element={<Home />} /> */}
         <Route path="/home" element={<PrivateRouter />}>
           <Route path="" element={<Home/>}/>
         </Route>

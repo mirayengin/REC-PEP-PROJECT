@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-// import Loginfoto  from "../../assets/login.jfif";
+
 
 
 export const LoginDiv = styled.div`

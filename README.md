@@ -4,7 +4,7 @@
 
 ## Visualization of the Website
 
-![Form](./food-search-app.gif)
+![Form](./RecipepApp.gif)
 
 ## Description
 
@@ -14,7 +14,7 @@ Project aims to create a Recipe App.
 
 At the end of the project, you will be able to;
 
-- improve coding skills within HTML & CSS & JS & ReactJS.
+- improve coding skills within HTML & CSS & JS & ReactJS & styled-components & react-bootstrap.
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
@@ -71,7 +71,7 @@ Project(folder)
 
 ### Overview
 
-I mastered HTML & CSS & JS & ReactJS features in this project.
+I mastered HTML & CSS & JS & ReactJS   features in this project.
 You can see the visual representation of the website above.
 
 ## Notes

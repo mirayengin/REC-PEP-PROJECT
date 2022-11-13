@@ -17,7 +17,7 @@ export const CardTitle = styled.h3`
   justify-content:center;
   height:5rem;
   margin-top:1rem
-  /* overflow:scroll; */
+
 `;
 
 

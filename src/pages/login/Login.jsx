@@ -1,22 +1,18 @@
-import React, { useEffect, useState } from "react";
-import { Button, Form } from "react-bootstrap";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import React, { useState } from "react";
+import { Form } from "react-bootstrap";
+import { NavLink, useNavigate } from "react-router-dom";
 import Nav, { LoginButton, LoginDiv, LoginForm, LoginH1 } from "./Login.style";
-// import Loginfoto from "../../assets/asci.jpg";
+
 import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-// import background from "../../assets/asci.jp"
+
+
 const Login = () => {
   const navigate = useNavigate();
   const [username, setUsername] = useState(" ");
   const [passwordData, setPasswordData] = useState("");
-  // const [localData, setLocalData] = useState("");
-  // const [errorUsername, setErrorUsername] = useState(false)
-  // const [errorPassword, setErrorPassword] = useState(false)
+
   const [error, setError] = useState(false);
 
-  // console.log(errorUsername);
-  // console.log(errorPassword);
 
   console.log("username :", username);
   console.log(typeof passwordData);
@@ -38,36 +34,9 @@ const Login = () => {
     } else {
       navigate("/home");
     }
-
-    // const statususer = dataLast?.username !== "";
-    // statususer ? (if(dataLast?.username !== username || dataLast?.password !== passwordData) {
-    //       setError(true);
-
-    //   })
-    // : ""
-
-    // const dataLast = dataLast1.filter((item) => item.username !== "");
-    // console.log(dataLast?.password)
-    // if (dataLast?.password !== passwordData) {
-    //   setErrorPassword(!errorPassword);
-
-    // } else if (dataLast?.username !== username) {
-    //   setErrorUsername(!errorUsername)
-
-    // } else if (dataLast?.username !== username && dataLast?.password !== passwordData) {
-    //   setErrorPassword(!errorPassword);
-    //   setErrorUsername(!errorUsername)
-    // } else {
-    //   navigate("/home")
-    //   setErrorUsername(false);
-    //   setErrorPassword(false);
-    //   ;
-    // }
   };
 
-  // const mystyle = {
-  //   backgroundImage:"url(../../assets/asci.jpg)"
-  // }
+
 
   return (
     <>
@@ -90,7 +59,7 @@ const Login = () => {
               placeholder="Enter Username"
             />
           </Form.Group>
-          {/* <p>{ errorUsername && "The wrong username" }</p> */}
+
 
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <LoginH1>Password</LoginH1>
