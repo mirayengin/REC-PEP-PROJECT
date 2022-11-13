@@ -1,6 +1,6 @@
 # Project : Recipe App
 
-## Check The Live Website ➡️ [Live Website](https://vercel.com/mirayengin/rec-pep-project)
+## Check The Live Website ➡️ [Live Website](https://rec-pep-project.vercel.app/)
 
 ## Visualization of the Website
 
