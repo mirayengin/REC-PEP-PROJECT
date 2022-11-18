@@ -11,6 +11,7 @@ export const AboutDiv = styled.div`
 export const ContainertDiv = styled.div`
  height:100vh;
  background-color:lightgoldenrodyellow;
+ /* background-image:  */
 `;
 
 
